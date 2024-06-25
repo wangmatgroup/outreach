@@ -17,14 +17,12 @@ def random_walk(nt):
     Inputs:
         nt [integer] = number of desired jumps (i.e., time steps)
     Outputs:
-        rs2 [array] = square displacement at each time step
         x   [array] = x-coordinate at each time step
         y   [array] = y-coordinate at each time step
     """
     # array for x- and y-coordinates along hopping path
     x = np.zeros(nt+1)
     y = np.zeros(nt+1)
-    rs2 = np.zeros(nt+1)
 
     # particle starts at origin
     x[0] = 0 

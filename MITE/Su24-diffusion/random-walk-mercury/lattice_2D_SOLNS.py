@@ -34,8 +34,8 @@ def random_walk(nt):
     # ==== FILL ME IN ====== #
     # next two lines define the jumps on the square lattice:
     #   right, up, left, down
-    delx = np.array([1, -1, 0, 0])
-    dely = np.array([0, 0, 1, -1])
+    delx = np.array([1, 0, -1, 0])
+    dely = np.array([0, 1, 0, -1])
          
     # loop over nt jumps, add the jump vector as generated randomly in fd
     #sum over nt jumps
